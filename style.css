@@ -1,0 +1,377 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@media screen and (max-width: 1120px) {
+  .container-upper, .container-middle, .container-down, .container-down-2, .container-footer{
+    display: none;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .hide {
+    display: none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+/*.....navbar section.........*/
+.navbar{
+  display: flex;
+  gap: 300px;
+  padding: 20px 60px 20px 70px;
+  
+}
+.logo{
+  height: 40px;
+}
+.list{
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+.list-item{
+  align-items:baseline;
+}
+.button-navbar{
+  border: 2px solid rgb(0, 195, 255);
+  background-color: transparent;
+  color: rgb(0, 195, 255);
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: larger;
+  cursor: pointer;
+  
+}
+.hero-section{
+  display: flex;
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-right: 60px;
+}
+.left-section{
+  padding-top: 20px;
+}
+.bold-text{
+  font-size: 40px;
+}
+.small-text{
+  color: rgb(138, 133, 133);
+}
+.hero-button{
+  padding: 10px 30px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(180deg, rgb(11, 11, 230), rgb(5, 118, 170));
+}
+.server{
+  height: 400px;
+  position: absolute;
+  right: 70px;
+} 
+
+.testing-image-section{
+  display: flex;
+  padding-top: 200px;
+  padding-left: 70px;
+  padding-right: 60px;
+  gap: 50px;
+}
+
+.testing{
+  height: 350px;
+  left: 70px;
+}
+
+.technical-image-section{
+  display: flex;
+  padding-top: 200px;
+  padding-left: 70px;
+  padding-right: 60px;
+  position: relative;
+}
+
+.technical{
+  height: 500px;
+  position: absolute;
+  right: 70px;
+  top: 100px;
+}
+
+.sevice-provide{
+  display: flex;
+  padding-top: 200px;
+  padding-left: 70px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+  gap: 100px;
+}
+
+.bold-text-server{
+  font-size: 35px;
+}
+
+.service-small-text{
+  padding-top: 50px;
+  color: rgb(138, 133, 133);
+}
+
+/*......css for card section...*/
+
+.card-section1{
+  display: flex;
+  padding-top: 50px;
+  padding-left: 70px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+}
+
+.card-section1-3{
+  padding-top: 40px; 
+}
+
+.unlimited-hosting{
+  padding-bottom: 20px;
+}
+
+.Closud-Hosting{
+  padding-bottom: 20px;
+}
+
+.wordpress-hosting{
+  padding-bottom: 20px;
+}
+
+.tick{
+  height: 20px;
+  padding-right: 12px;
+}
+
+.list-cont{
+  display: flex;
+}
+
+.list-item{
+  list-style-type: none;
+}
+
+.card-section2{
+  background-color: rgb(0, 110, 255);
+  padding-left: 70px;
+  padding-right: 60px;
+  padding-bottom: 650px;
+}
+
+.flexible{
+  font-size: 50px;
+  color: white;
+  padding-top: 100px;
+  
+}
+.card-section-2{
+  display: flex;
+  gap: 15px;
+}
+
+.card-section2-1{
+  background-color: white;
+  padding-right: 150px;
+
+}
+
+.section2-1-head{
+  font-size: 30px;
+  padding-left: 12px;
+}
+.about-head{
+  padding-left: 12px;
+  color: grey;
+  position: absolute;
+  background-color: white;
+  padding-right: 33px;
+  
+}
+.about-head2{
+  padding-left: 12px;
+  color: grey;
+  position: absolute;
+  background-color: white;
+  padding-right: 97px
+}
+
+.about-head3{
+  padding-left: 12px;
+  color: grey;
+  position: absolute;
+  background-color: white;
+  padding-right: 105px
+}
+.list-cont{
+  font-size: larger;
+  color: grey;
+  padding-bottom: 12px;
+  padding-top: 10px;
+}
+
+.price{
+  padding-top: 70px;
+  text-align: center;
+}
+.dollar{
+  font-size: xx-large;
+  color: black;
+}
+
+.month{
+  color:grey;
+}
+
+.choose{
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.choose-btn{
+  background-color:white;
+  color: rgb(0, 174, 255);
+  border: solid 2px rgb(0, 174, 255);
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.choose-btn2{
+  background: linear-gradient(180deg, rgb(0, 174, 255), rgb(111, 111, 245));
+  color: white;
+  border: solid 2px rgb(0, 174, 255);
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.our-customers{
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.cust-head{
+  font-size: 50px;
+  color:black;
+}
+
+.cust-dis{
+  color: rgb(167, 167, 167);
+}
+
+.customer-feedback{
+  padding: 10px 150px 100px 150px;
+  display: flex;
+  gap: 100px;
+}
+
+.cards{
+  width: max-content;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+}
+
+.customerlogo{
+  position: absolute;
+  bottom: 20px;
+  
+}
+
+.name{
+  padding-left: 70px;
+}
+
+.grey{
+  color: grey;
+}
+
+.quit-message{
+  display: flex;
+  gap: 370px;
+  position: relative;
+  padding: 100px;
+  background: linear-gradient(45deg,rgb(33, 160, 245),blue);
+}
+
+.text h3{
+  font-size: 50px;
+}
+
+.text{
+  color: white;
+}
+
+.reg-now{
+  position: absolute;
+  background: transparent;
+  padding: 20px 50px;
+  border: solid 1px white;
+  color: white;
+  border-radius: 8px;
+  top: 250px;
+  right: 100px;
+}
+
+.footer{
+  padding-top: 200px;
+  padding-left: 70px;
+  padding-right: 70px;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  position: relative;
+}
+
+.un-list{
+  list-style-type: none;
+}
+
+.bold-menu{
+  font-size: 30px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.unordered-list{
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.logo-section{
+  color: grey;
+}
+
+.not-bold{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: grey;
+}
+
+.social-button{
+  color: white;
+  border: solid 1px white;
+  border-radius: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(0, 119, 255);
+}
+
+.social{
+  position: absolute;
+  right: 70px;
+  top: 200px;
+}
+
